@@ -6,6 +6,7 @@ body {
     padding: 0;
     font-family: 'Work Sans';
 }
+
 /* ---------------Header section Start-------------------------- */
 .header {
     background: rgba(255, 144, 14, 0.1);
@@ -64,7 +65,7 @@ nav ul li a:hover::after {
 
 .banner {
     text-align: center;
-    
+
 
 }
 
@@ -81,71 +82,73 @@ nav ul li a:hover::after {
     font-size: 16px;
     margin-bottom: 55px;
 }
+
 /* ---------------Primary button Start-------------------------- */
-.btn{
+.btn {
     font-weight: 500;
-font-size: 20px;
-text-align: center;
-background: #FF900E;
-padding: 20px 24px ;
-text-decoration: none;
-color: #fdfdfd;
-border-radius: 8px;
-cursor: pointer;
-box-shadow: 0 0 10px; rgba(0, 0, 0, 0.1)
--wabkit-transition-duration; 0.3s
-transition-duration: 0.3s
--wabkit-transition-property: box-shadow, transform;
-transition-property: box-shadow, transform;
+    font-size: 20px;
+    text-align: center;
+    background: #FF900E;
+    padding: 20px 24px;
+    text-decoration: none;
+    color: #fdfdfd;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 0 0 10px;
+    rgba(0, 0, 0, 0.1) -wabkit-transition-duration;
+    0.3s transition-duration: 0.3s -wabkit-transition-property: box-shadow, transform;
+    transition-property: box-shadow, transform;
 }
-.btn:hover, .btn:focus, .btn:active{
+
+.btn:hover,
+.btn:focus,
+.btn:active {
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
 
 }
+
 /* ---------------Primary button End-------------------------- */
-.bg-image{
+.bg-image {
     margin-top: 70px;
-   align-items: center;
-    
+    align-items: center;
+
 }
+
 /* banner section */
 
 /* ----------------------------Header section End ------------------------------------------ */
 
 /* -------------------------------about container start--------------------------------- */
-.about-container-2 {
+.about-container {
     display: flex;
-
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px 100px
 }
 
 .images {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    padding: 80px;
-    margin-left: 200px;
     grid-gap: 24px;
+
 }
 
 .a-image {
-    border-radius: 8px;
-    width: 342px;
-
+    border-radius: 5px;
 }
 
 .Features {
-    width: 537px;
-    height: 304px;
-    margin-top: 370px;
+    margin-left: 70px;
 }
 
 .f-title {
     margin-bottom: 24px;
     font-weight: 700;
     font-size: 45px;
+    line-height: 53px;
     color: #131313;
-
 }
 
 .f-title .list {
@@ -160,9 +163,14 @@ transition-property: box-shadow, transform;
     font-size: 45px;
 }
 
+.feature-discription {
+    margin-bottom: 36px;
+    font-weight: 400;
+    font-size: 16px;
+}
+
 .button {
     border-radius: 8px;
-    margin-top: 30px;
     background: #FF900E;
     width: 180px;
     height: 64px;
@@ -172,6 +180,7 @@ transition-property: box-shadow, transform;
 /* ------------------------------- 
 about container End
 --------------------------------- */
+
 /* ------------------------------- 
 main container Start
 --------------------------------- */
@@ -179,18 +188,151 @@ main container Start
 .exprience {
     display: flex;
     justify-content: space-between;
-   padding: 80px 0;
+    padding: 80px 0;
+    margin: 20px 100px 100px 100px;
 }
 
+.texts {
+    margin-right: 54px;
+}
 
+.exprience-title {
+    color: #131313;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 43px;
+}
 
+.exprience-discription {
+    color: #727272;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+}
 
+.exprience-subtitle {
+    color: #131313;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    margin-bottom: 10px;
+}
 
+.exprience-sub-discription {
+    color: #727272;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 60px;
+}
 
-
-
-
+.exprience-image {
+    height: 1050px;
+}
 
 /* ------------------------------- 
 main container End
 --------------------------------- */
+
+/* ------------------------------- Facts container Start--------------------------------- */
+
+.facts {
+    margin-left: 100px;
+}
+
+.facts-title {
+    color: #131313;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    margin-bottom: 24px;
+
+}
+
+.facts-discription {
+    color: #727272;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 100px;
+}
+
+.box-container {
+    display: flex;
+    width: 1200px;
+    gap: 50px;
+    margin: 0 auto;
+
+}
+
+.box {
+    box-sizing: border-box;
+    width: 250px;
+    height: 231px;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+
+}
+
+.box-in {
+    margin-top: 55px;
+    text-align: center;
+    gap: 20px;
+}
+
+
+/* ------------------------------- 
+Facts container End
+--------------------------------- */
+
+/* ------------------------------- Sponspors container start--------------------------------- */
+
+.sponspors {
+    text-align: center;
+}
+
+.sponspors-title {
+    color: #131313;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+
+}
+
+.sponspors-discription {
+    color: #727272;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    margin-top: 24px;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 120px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+/* ------------------------------- 
+Sponspors container End
+--------------------------------- */
+
+.footer-box {
+    background: #FFF4E7;
+    border-radius: 8px;
+    width: 1100px;
+    height: 80px;
+    margin-top: 130px;
+    margin-bottom: 220px;
+    margin-left: 120px;
+    padding: 35px 35px;
+    font-weight: 400;
+    font-size: 20px;
+    color: #424242;
+    text-align: center;
+
+}
+
